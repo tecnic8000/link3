@@ -1,8 +1,20 @@
-import Image from "next/image";
+//import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    return (
+        <>
+            <h1 className="bg-linear-to-r from-cyan-500 to-blue-500 text-center text-2xl font-bold">
+                Hello world!
+            </h1>
+            <p className="mt-4 text-amber-50">test</p>
+
+            <p className="mb-5 bg-amber-950 text-amber-200">test2</p>
+        </>
+    )
+}
+
+/* 
+<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
@@ -14,7 +26,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
+            Get started01 by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
               src/app/page.js
             </code>
@@ -99,5 +111,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  );
-}
+
+*/
